@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/introcss/aula\ 10/img/cat.png.avif);
+    background-size: cover; /*ajusta o tamanho da imagem para que ela nao fique quebrada/repetida */
+   
+    margin: auto;
+    padding: 50px;
+    border: solid 5px rgb(107, 6, 223);
+   
+    height: 1360px;
+    width: 1080px;
+
+    text-align: center;
+}
+
+h1 {
+    color: violet;
+}
+
+h2 {
+    color: pink;
+    background-color: turquoise;
+}
+
+p {
+    color: pink;
+    background-color: rgba(212, 156, 212, 0.5);
+
+    padding: 25px;
+    border: dotted 5px rgb(107, 6, 223);
+    border-radius: 20px;
+    margin: 50px;
+}

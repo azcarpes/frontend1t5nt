@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <form action="/cadastrar" name="opnioes">
+
+        <fieldset>
+           
+            <legend>Qual destas cidades do Nordeste você visitou por último?</legend>
+
+            <div>
+                              
+                <label for="nome-cidade">Nome da cidade</label>
+                <select name="nome-cidade" id="nome-cidade">
+                    <option value="1">Porto de Galinhas</option>
+                    <option value="2">Maragoji</option>
+                    <option value="3">Natal</option>
+                    <option value="4">Recife</option>
+                    <option value="5">Olinda</option>
+                    <option value="6">Maceió</option>
+                    <option value="7">Aracajú</option>
+                    <option value="8">Fernando de Noronha</option>
+                    <option value="9">João Pessoa</option>
+                    <option value="10">Outra</option>
+                </select>
+
+            </div>
+
+            <div>
+                              
+                <label for="outra">Caso não esteja listada, diga qual foi</label>
+                <input type="text" name="outra" placeholder="Nome de uma cidade que não está listada">
+
+            </div>
+
+            <div>
+                              
+                <label for="data">Data da visita</label>
+                <input type="date" name="data-visita" placeholder="Insira a data que você fez a visita">
+
+            </div>
+
+
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="minireview">Faça uma review do que você achou da cidade:</label>
+                <textarea name="minireview" id="minireview" cols="50" rows="10"></textarea>
+
+            </div>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
