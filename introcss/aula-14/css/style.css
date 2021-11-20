@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: rgba(237, 100, 230, 0.418);
+    font-family: serif;
+    font-size: 50px;
+
+    padding: 40px;
+    text-align: center;
+}
+
+nav {
+    color: rgba(237, 100, 230);
+    background-color: rgba(137, 43, 226, 0.301);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}

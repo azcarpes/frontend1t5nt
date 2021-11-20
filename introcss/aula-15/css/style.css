@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    color: cornflowerblue;
+    font-size: 60px;
+    padding: 30px;
+    text-align: center;
+}
+
+body {
+    height: 1500px;
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    padding: 30px;
+}
+
+a {
+    padding: 30px;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+div {
+    padding: 30px;
+}
+
+button {
+    margin: 30px;
+}
+
+input:invalid {
+    background-color: rgba(185, 18, 18, 0.329);
+}
+
+input:valid {
+    background-color: rgba(0, 128, 0, 0.281);
+}
+
+#paragrafo2 {
+    margin-top: 500px;
+}
+
+#paragrafo2::first-letter {
+    color: red;
+    font-size: 50px;
+}
