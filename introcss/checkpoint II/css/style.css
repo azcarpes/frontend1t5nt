@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fredericka+the+Great&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+
+    padding: 20px;
+    
+    color: rgb(99, 99, 105);
+    background-color: rgb(136, 206, 233);
+
+    font-size: 45px;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    -webkit-text-stroke-width: 0.4px; /* contornar a letra */
+    -webkit-text-stroke-color: rgb(69, 203, 226) /* cor do contorno da letra */
+}
+
+body {
+
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+
+    position: relative;
+}
+
+#plano-de-fundo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+body p {
+
+    color: rgb(1, 1, 59);
+    text-align: center;
+
+    padding: 80px 40px;
+
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Fredericka the Great', cursive;;
+    text-align: center;
+
+    margin-top: 150px;
+    padding: 20px;
+}
+
+#ilhamagia {
+    text-align: center;
+}
+
+.links {
+    color: rgb(19, 93, 163);
+    text-decoration: none; /* remove o sublinhado do link */
+}
+
+.links:hover {
+    background-color: rgb(142, 216, 245);
+    color: rgb(225, 225, 238);
+
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#video {
+    text-align: center;
+
+    padding: 0px 60px;
+}
+
+footer {
+    
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.icone {
+
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}

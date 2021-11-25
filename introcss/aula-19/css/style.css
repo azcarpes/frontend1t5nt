@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    border: cadetblue;
+    background-color: rgb(17, 27, 27);
+    color: rgb(226, 226, 226);
+
+    margin: 10px 140px;
+}
+
+header{
+    text-align: center;
+    padding: 70px;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
