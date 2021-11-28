@@ -13,30 +13,111 @@
         <h1>A cidade de Florianópolis</h1>
     </header>
 
+    <aside>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ilhamagia">Curiosidades</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+    </aside>
+
     <main>
 
-        <img id="plano-de-fundo" src="/img/conheca-florianopolis-a-ilha-da-magia.jpg" alt="foto aérea de Florianópolis">
-
-        <p>Florianópolis, a <u>capital do estado de Santa Catarina</u> no sul do Brasil, é maioritariamente constituída pela Ilha de Santa Catarina, com 54 km de comprimento e 42 lindas praias, que você pode conferir
+        <p id="home">Florianópolis, a <i>capital do estado de Santa Catarina</i> no sul do Brasil, é maioritariamente constituída pela Ilha de Santa Catarina, com 54 km de comprimento e 42 lindas praias, que você pode conferir
         <a class="links" href="https://guiafloripa.com.br/turismo/praias">neste guia ilustrado!</a></p>
         
         <div id="video">
-            <iframe  width="1280" height="720" src="https://www.youtube.com/embed/587G9NcgyQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  width="800" height="520" src="https://www.youtube.com/embed/587G9NcgyQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <h2>Curiosidades:</h2>
+        <div id="ilhamagia">
+            <h2>Curiosidades:</h2>
+            
+            <ul>
+                <li>A Ponte Hercilio Luz é a maior ponte erguida por cabos de suspensão no Brasil.</li>
 
-        <ul id="ilhamagia">
-            <li>A Ponte Hercilio Luz é a maior ponte erguida por cabos de suspensão no Brasil.</li>
+                <li>O Mangue do Itacurubi é o segundo maior mangue do País e preserva diversos animais de nossa fauna, inclusive o jacaré do papo amarelo.</li>
 
-            <li>O Mangue do Itacurubi é o segundo maior mangue do País e preserva diversos animais de nossa fauna, inclusive o jacaré do papo amarelo.</li>
+                <li>A Avenida Pequeno Principe (uma das principais do bairro Campeche) é em homenagem ao escritor do famoso livro “O Pequeno Príncipe”. Ele era piloto e esteve em Floripa a trabalho.</li>
 
-            <li>A Avenida Pequeno Principe (uma das principais do bairro Campeche) é em homenagem ao escritor do famoso livro “O Pequeno Príncipe”. Ele era piloto e esteve em Floripa a trabalho.</li>
+                <li><strong>Floripa</strong> é um apelido carinhoso, mas Florianópolis é também chamada de <strong>Ilha da Magia</strong>. Você sabe por quê?
+                    <a class="links" href="https://www.pousadadomuseu.com.br/blog/71-florianopolis-e-chamada-de-ilha-da-magia-voce-sabe-por-que">Descubra agora!</a></li>
+        
+            </ul>
+        </div>
 
-            <li><strong>Floripa</strong> é um apelido carinhoso, mas Florianópolis é também chamada de <strong>Ilha da Magia</strong>. Você sabe por quê?
-                <a class="links" href="https://www.pousadadomuseu.com.br/blog/71-florianopolis-e-chamada-de-ilha-da-magia-voce-sabe-por-que">Descubra agora!</a></li>
-    
-        </ul>
+        <div id="newsletter">
+            <h2>Cadastre-se em nossa Newsletter!</h1>
+            
+            <form action="/cadastrar" name="newsletter" method="post">
+                <fieldset>
+                    <div>
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="nome" id="nome" class="campos" maxlength="100" placeholder="Digite seu nome completo">
+                    </div>
+                    <div>
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" id="email" class="campos" placeholder="Digite seu e-mail">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone: </label>
+                        <input type="number" class="campos" id="telefone" placeholder="Apenas números">
+                    </div>
+                    <div>
+                        <label for="datanascimento">Data de Nascimento: </label>
+                        <input type="date" name="datanascimento" id="datanascimento">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>Selecione um ou mais pontos de interesse: </legend>
+                        <input type="checkbox" id="praias">
+                        <label for="praias">Praias</label>
+                        <input type="checkbox" id="trilhas">
+                        <label for="trilhas">Trilhas</label>
+                        <input type="checkbox" id="balada">
+                        <label for="balada">Balada</label>
+                        <input type="checkbox" id="bares">
+                        <label for="bares">Bares</label>
+                        <input type="checkbox" id="restaurantes">
+                        <label for="restaurantes">Restaurantes</label>
+                        <input type="checkbox" id="compras">
+                        <label for="Compras">Compras</label>
+                        <input type="checkbox" id="cinema">
+                        <label for="cinema">Cinema</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>Você é: </legend>
+                        <input type="radio" id="residente" name="proveniencia" value="residente">
+                        <label for="residente">Residente</label>
+
+                        <input type="radio" name="proveniencia" id="turista" value="turista">
+                        <label for="turista">Turista</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="maior18" name="faixaetaria" value="maior18">
+                        <label for="maior18">Tenho mais de 18 anos</label>
+
+                        <input type="radio" id="menor18" name="faixaetaria" value="menor18">
+                        <label for="menor18">Tenho menos de 18 anos</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div>
+
+                        <button type="reset">Limpar</button>
+            
+                        <button type="submit">Enviar</button>
+            
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </main>
 
     <footer>
