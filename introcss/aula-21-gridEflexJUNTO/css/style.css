@@ -21,12 +21,6 @@
     border: black 1px solid;
 }
 
-.flex-item {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
 .video {
     width: 720px;
     height: 480px;
@@ -44,16 +38,22 @@
 
 .aside {
     grid-area: aside;
+    padding: 20px;
+}
 
+.flex-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .mini-video {
-    width: 100px;
-    height: 60px;
+    width: 200px;
+    height: 120px;
     background-color: blanchedalmond;
 }
 
-.descricao-mini-video {
-
+.descri-top {
+    height: 80%;
 }
 
